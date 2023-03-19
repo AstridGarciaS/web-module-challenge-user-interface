@@ -1,6 +1,7 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
 *{
   color:#3C373B;
+   text-align:center;
 }
 
 h1 {
@@ -16,6 +17,7 @@ h2, h3, h4, h5, h6 {
   padding: 0 10px;
   /*=======  Update the font size to 30px */
   font-size: 30px;
+  
 }
 
 /*======= Create a selector for ALL p tags in the site to have the following styles:
@@ -32,6 +34,7 @@ font-size: 16px;
 font-family: roboto;
 padding: 10px;
 line-height: 1.4;
+
 }
 /*======= Create a selector for ALL images in the site to have the following styles: 
 
@@ -53,7 +56,8 @@ img{
 .container {
   /*======= create a width property. Set the value to 605px */
   margin: 0 auto;
-  width: 600px;
+  width: 605px;
+  
 }
 
 .container header nav a {
@@ -66,7 +70,7 @@ img{
   text-decoration: none;
   margin-bottom: 20px;
    /*======= create a background property. Set the value to #F87B99 */
-  background:#F87B99;
+  background:#4f0718;
 }
 
 .container header nav a:hover {
@@ -136,7 +140,7 @@ footer nav a:first-child {
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
   color: white;
 */
-footer a{
+footer a:hover{
 color:white;
 }
 
